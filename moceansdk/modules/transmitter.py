@@ -15,7 +15,8 @@ class Transmitter(object):
     @staticmethod
     def default_options():
         return {
-            "base_url": "https://rest.moceanapi.com",
+            # "base_url": "https://rest.moceanapi.com",
+            "base_url": "https://api-staging.moceansms.com",
             "version": "2",
             "request_session": requests.Session()
         }

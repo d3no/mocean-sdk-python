@@ -14,3 +14,6 @@ class MoceanErrorException(Exception):
 
 class RequiredFieldException(MoceanErrorException):
     pass
+
+class InvalidArgumentException(MoceanErrorException):
+    pass

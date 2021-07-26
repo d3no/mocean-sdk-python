@@ -127,3 +127,5 @@ dmypy.json
 # IDE
 .vscode/
 .nbproject/
+
+project
